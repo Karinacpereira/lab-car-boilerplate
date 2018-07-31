@@ -81,7 +81,7 @@
             <span class="pt-3 ocult">Viaja con <img src="assets/images/logoBlanco.png" class="white-logo" width="20%" alt=""></span>
             <span class="pt-3 mobile">Comienza a viajar con <img src="assets/images/logoBlanco.png" class="white-logo" width="25%" alt=""></span>
             <div class="justify-content-between pt-3">
-              <button class="btn btn-light ocult" type="button"><a href="#" class="text-uppercase text-dark font-weight-bold ocult">Regístrate</a></button>
+              <button class="btn btn-light ocult" type="button"><a data-toggle="modal" data-target="#registrate-modal" class="text-uppercase text-dark font-weight-bold ocult">Regístrate</a></button>
               <button class="btn btn-light mobile" type="button"><a href="#" class="text-dark font-weight-bold mobile">Descarga el app</a></button>
               <div class="row pt-2 justify-content-end ocult"><hr class="trace"><p>O bien</p><hr class="trace"></div>
               <button class="btn btn-light ocult" type="button" ><a href="#" class="text-dark font-weight-bold ocult">Conviértete en un conductor</a></button>
@@ -90,6 +90,38 @@
         </div>
       </div>
     </div>
+
+    <div id="registrate-modal" class="modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body content-modal">
+              <button type="button" class="btn btn-dark">Ya tienes una cuenta?</button>
+              <span class="">O CREA UNA CUENTA NUEVA</span>
+              <form>
+                  <div class="form-group">
+                    <input type="email" class="form-control1 border rounded" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nombre">
+                    <input type="email" class="form-control1 border rounded" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Apellido">
+                  </div>
+                  <div class="form-group1">
+                      <input type="email" class="form-control2 border rounded" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Correo Eletronico: ejemplo@correo.mx">
+                      <input type="email" class="form-control2 border rounded" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Teléfono">
+                      <input type="email" class="form-control2 border rounded" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Contraseña">
+                      <input type="email" class="form-control2 border rounded" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="(Opcional) Código de invitacion">
+                      <button type="button" class="btn btn-secondary">Como te enteraste de nosotros?<i class="icon-chevron-down"></i></button>
+                  </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-info">ENVIAR</button>
+            </div>
+          </div>
+        </div>
+      </div>
 
     <section class="container-fluid text-light pt-5 pb-5 app">
       <div class="container-fluid content">
