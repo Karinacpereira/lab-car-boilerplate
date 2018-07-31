@@ -21,8 +21,18 @@ header {
   line-height: 45px;
 }
 
+.modal{
+  color: #2B2B2B;
+}
+
 .mobile{
   display: none;
+}
+
+.icon-user{
+  display: flex;
+  justify-content: center;
+  font-size: 75px;
 }
 
 .taxi {
@@ -248,7 +258,6 @@ ul li a:hover{
     width: auto;
     height: 300px;
   }
-
   .footer-mobile{
     display: flex;
     flex-direction: row;

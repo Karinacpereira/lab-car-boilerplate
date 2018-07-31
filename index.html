@@ -28,12 +28,46 @@
               <a class="nav-link" href="#conduce">Conduce</a>
             </li>
             <li class="nav-item px-lg-5">
-              <a class="nav-link" href="#">Inicia sessión</a> 
+              <a class="nav-link" data-toggle="modal" data-target="#exampleModal">Inicia sessión</a> 
             </li>
           </ul>
         </div>
       </nav>
     </header>
+
+    <div id="exampleModal" class="modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <i class="icon-user"></i>
+              <hr>
+              <form>
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputPassword1">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                  </div>
+                  <div class="form-group form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Manter-me conectado</label>
+                  </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-warning" data-dismiss="modal">LOGING</button>
+            </div>
+          </div>
+        </div>
+      </div>
 
     <div class="container-fluid taxi" id="taxi">
       <div class="col-md-12">
@@ -45,7 +79,7 @@
             <span class="pt-3 mobile">Comienza a viajar con <img src="assets/images/logoBlanco.png" class="white-logo" width="25%" alt=""></span>
             <div class="justify-content-between pt-3">
               <button class="btn btn-light ocult" type="button"><a href="#" class="text-uppercase text-dark font-weight-bold ocult">Regístrate</a></button>
-              <button class="btn btn-light" type="button"><a href="#" class="text-dark font-weight-bold mobile">Descarga el app</a></button>
+              <button class="btn btn-light mobile" type="button"><a href="#" class="text-dark font-weight-bold mobile">Descarga el app</a></button>
               <div class="row pt-2 justify-content-end ocult"><hr class="trace"><p>O bien</p><hr class="trace"></div>
               <button class="btn btn-light ocult" type="button" ><a href="#" class="text-dark font-weight-bold ocult">Conviértete en un conductor</a></button>
             </div>
