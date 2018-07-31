@@ -1,0 +1,9 @@
+LABCAR
+
+- mapa: implementar o mapa usando api do googlemaps
+- critérios:
+* layout
+* bootstrap (navbar, grid 12 colunas e formularios)
+* responsividade (menor que 480px assume responsivo - menu hamburguer)
+- responsivo: não ficar voando as imagens (nao sair do lugar/deformar), ser proporcional, no centro
+- extra / modal: bonus de pontuação (1/4 de pontuação)

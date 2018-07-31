@@ -1,1 +1,156 @@
-<!-- Suelta tus manos y tu mente para solucionar este reto -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Lab Car</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+    <link href="https://file.myfontastic.com/cuWy4RZS58Xiy3gixx4q9Q/icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a href="" class="navbar-brand ml-lg-5 my-lg-4">
+          <img src="assets/images/logoForma.png" width="130px" alt="" class="d-inline-block align-top img-responsive ">
+        </a>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto mr-lg-5">
+            <li class="nav-item px-lg-4">
+              <a class="nav-link" href="#taxi">Viaja</a>
+            </li>
+            <li class="nav-item px-lg-1">
+              <a class="nav-link" href="#conduce">Conduce</a>
+            </li>
+            <li class="nav-item px-lg-5">
+              <a class="nav-link" href="#">Inicia sessión</a> 
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <div class="container-fluid taxi" id="taxi">
+      <div class="col-md-12">
+        <div class="row">
+          <aside class="box1 col-md-5 p-5 text-light float-right">
+            <h1>Disfruta del viaje</h1>
+            <h1>Eres dueño de tu tiempo</h1>
+            <span class="pt-3 ">Viaja con <img src="assets/images/logoBlanco.png" class="white-logo" width="20%" alt=""></span>
+            <div class="justify-content-between pt-3">
+                <button class="btn btn-light" type="button"><a href="#" class="text-uppercase text-dark font-weight-bold ">Regístrate</a></button>
+                <div class="row pt-2 justify-content-end"><hr class="line"><p >O bien</p><hr class="line"></div>
+                <button class="btn btn-light" type="button" ><a href="#" class="text-dark font-weight-bold">Conviértete en un conductor</a></button>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </div>
+
+    <section class="container-fluid text-light pt-5 pb-5 app">
+      <div class="content">
+        <img src="assets/images/iPhone6Plus.png"alt="">
+        <div class="text-app"> 
+          <h2>Descarga la nueva app</h2>
+          <h4>La versión actualizada de LabCar está llena de nuevas funciones para llegar a donde quieras aún más fácil y rápido.</h4>
+          <h4>Con solo tocar un botón, un auto llega justo a tu ubicación. Súbete y no te preocupes: tu conductor sabe exactamente a dónde ir</h4>
+        </div>
+      </div>
+    </section>
+
+    <section class="container-fluid text-light conduce" id="conduce">
+      <div class="text-conduce row col-md-4 float-right text-light h-100 align-content-center">
+        <h2>Conduce cuando quieras</h2>
+        <h5 class="font-weight-light">Labcar es una opción flexible para alcanzar tus metas financieras.</h5>
+        <button class="btn btn-warning" type="button">
+          <a href="#" class="text-light font-weight-bold" >Conviértete en conductor</a>
+        </button>
+      </div>
+    </section>
+
+    <section class="tarifas container-fluid row text-light pt-5 pb-5">
+      <div class="text-tarifas row col-md-5 mx-auto">
+        <form class="col-md-10 h-100">
+          <div class="form-group h-100 align-content-center">
+            <h2>Tarifas</h2>
+            <h4>Consulta las tarifas LabCar aquí</h4>
+            <div class="rota form-group row w-100">
+              <img src="assets/images/shape.png" alt="Simbolo de local de partida">
+              <div class="col-sm-10">
+                <input type="text" class="form-control w-100 bg-transparent border border-light rounded" id="exampleFormControlInput1" placeholder="Ingrese su punto de partida">
+              </div>
+            </div>
+            <div class="rota form-group row  w-100">
+              <img src="assets/images/shape2.png" alt="Simbolo de local de destino">
+              <div class="col-sm-10">
+                <input type="text" class="form-control w-100 bg-transparent border border-light rounded" id="exampleFormControlInput1" placeholder="Ingrese su destino">
+              </div>
+            </div>
+            <button class="btn btn-light col-md-6 mx-auto" type="button">
+              <a href="#" class="text-dark text-uppercase font-weight-bold">!Trazar Ruta!</a>
+            </button>
+          </div>
+        </form>
+      </div>
+      <div class="map border border-white p-2 ">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d61288627.75877125!2d-94.47278744865434!3d-20.351490951634258!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x90f99effb40af535%3A0xd2673dbf02a5b69c!2sLatin+America!5e0!3m2!1spt-BR!2sbr!4v1532978102570" width="500" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>     
+    </section>
+
+    <footer class="container-fluid text-white p-5">
+      <img src="assets/images/logoBlanco.png" height="30px" width="auto" alt="">
+      <hr class="line">
+      <div class="row footer-infos">
+        <div class="align-items-end col-lg-3 media">
+          <i class="icon-facebook"></i>
+          <i class="icon-twitter"></i>
+          <i class="icon-linkedin"></i>
+          <i class="icon-apple"></i>
+          <i class="icon-play"></i>
+        </div>
+        <div class="col-lg-3 column1">
+          <ul>
+            <li><a href="#">Viaje</a></li>
+            <li><a href="#">Dirija</a></li>
+            <li><a href="#">Cidades 1</a></li>
+            <li><a href="#">Cidades 2</a></li>
+            <li><a href="#">Entregas</a></li>
+            <li><a href="#">Como funciona?</a></li>
+            <li><a href="#">Países</a></li>
+            <li><a href="#">Segurança</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 column2">
+          <ul>
+            <li><a href="#">Oportunidades</a></li>
+            <li><a href="#">Nossa história</a></li>
+            <li><a href="#">API de LabCar</a></li>
+            <li><a href="#">Eventos</a></li>
+            <li><a href="#">Desenvolvedoras</a></li>
+            <li><a href="#">Serviços</a></li>
+            <li><a href="#">Laboratoria</a></li>
+            <li><a href="#">Coders</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 stores">
+          <img class="mb-3" src="assets/images/appstore.png">
+          <img class="mb-3" src="assets/images/enBadgeWebGeneric.png">
+        </div>
+      </div>
+      <hr class="line">
+      <div class="copyrigth">
+        <h6 class="pb-5">© 2017 LabCar technologies Inc.</h6>
+      </div>
+    </footer>
+        
+    <script src="main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>

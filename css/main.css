@@ -1,1 +1,220 @@
-/* Los estilos de tu proyecto */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body{
+  max-height: 100vh;
+  margin: 0 auto;
+  color: #FFFFFF;
+  font-family: 'Open Sans', sans-serif;
+}
+
+header {
+  line-height: 45px;
+}
+
+.taxi {
+  background-image: url("../assets/images/taxi.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: 92%;
+  width: 100%;
+  height: 800px;
+}
+
+.box1{
+  width: 540px;
+  height: 415px;
+  background-color: #F7B617;
+  position: absolute;
+  top: 250px;
+  right: -15px;
+	font-size: 16px;
+	display: flex;
+  flex-direction: column;
+}
+
+.box1 h2{
+  font-size: 33px;
+  font-weight: 600;
+}
+
+.box1 span {
+  font-size: 22px;
+}
+
+.line {
+  width: 180px;
+  background-color: #FFFFFF;
+  height: 1px;
+}
+
+.app{
+  background-color: #F7B617;
+  width: 100%;
+  height: 600;
+}
+
+.content{
+  border-top: #FFFFFF solid 1px;
+  border-right: #FFFFFF solid 1px;
+  border-bottom: #FFFFFF solid 1px;
+  margin-left: -15px;
+  display: flex;
+  flex-direction: row;
+  margin-right: 250px;
+}
+
+.content img{
+  width: auto;
+  height: 380px;
+  margin: 40px;
+  padding-left: 45px;
+}
+
+.text-app{
+width: 400px;
+height: fit-content;
+margin-top: 5%;
+margin-left: 10%;
+}
+
+.text-app h2{
+  font-weight: 700;
+  padding-bottom: 15px;
+}
+
+.text-app h4{
+  padding-bottom: 30px;
+}
+
+.conduce{
+	height: 430px;
+	width: 100%;
+	background-image: url(../assets/images/conduce.jpg);
+	background-size: cover;
+	background-position: 50% 55%;
+	background-repeat: no-repeat;
+  }
+
+.text-conduce{
+  display: flex;
+  background-color: rgba(0,0,0,0.60);
+  padding-left: 3%;
+}
+  
+.text-conduce h2{
+  font-size: 30px;
+  font-weight: 700;
+  padding-bottom: 
+}
+
+.text-conduce h5{
+  font-size: 19px;
+  padding-bottom: 2%;
+}
+
+.text-conduce button{
+  background-color: #F7B617;
+  padding: 2%;
+}
+
+.tarifas{
+  background-color: #F7B617;
+  width: 101%;
+}
+
+.tarifas img{
+  width: auto;
+  height: 5%;
+  margin-top: 2%;
+}
+
+.text-tarifas{
+  margin-top: 5%;
+}
+
+.text-tarifas h2{
+  font-weight: 700;
+  font-size: 28px;
+  padding-bottom: 2%;
+}
+
+.text-tarifas h4{
+  padding-top: 2%;
+  padding-bottom: 5%;
+  font-size: 16px;
+}
+
+.rota{
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.map{
+  margin-right: 10%;
+}
+
+footer{
+  background-color: #2B2B2B;
+  color: #FFFFFF;
+}
+
+.line{
+  color: #FFFFFF;
+  width:100%;
+  height: 1px;
+}
+
+.footer-infos{
+  display: flex;
+  flex-direction: row;
+}
+
+.media{
+  display: flex;
+  justify-items: baseline;
+}
+
+.media i{
+  margin-left: 5px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+ul{
+  list-style: none;
+}
+
+ul li a{
+  color: #FFFFFF;
+}
+
+ul li a:hover{
+  text-decoration: none;
+  color: #3E3E3E;
+}
+
+.stores{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.stores img{
+  width: fit-content;
+  height: 25%;
+}
+
+.copyrigth{
+  display: flex;
+  justify-content: center;
+}
