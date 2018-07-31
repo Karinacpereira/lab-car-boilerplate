@@ -57,6 +57,10 @@ header {
   margin-bottom: 2%;
 }
 
+.dropdown-toggle{
+  margin-bottom: 5%;
+}
+
 .mobile{
   display: none;
 }

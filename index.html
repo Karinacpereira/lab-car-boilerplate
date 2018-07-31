@@ -141,10 +141,64 @@
         <h2>Conduce cuando quieras</h2>
         <h5 class="font-weight-light">Labcar es una opción flexible para alcanzar tus metas financieras.</h5>
         <button class="btn btn-warning" type="button">
-          <a href="#" class="text-light font-weight-bold" >Conviértete en conductor</a>
+          <a data-toggle="modal" data-target="#modal-conduce" class="text-light font-weight-bold" >Conviértete en conductor</a>
         </button>
       </div>
     </section>
+
+    <div id="modal-conduce" class="modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body content-modal">
+                <div class="dropdown bt1">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        ?Tienes vehículo de 4 puertas?
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                      <a class="dropdown-item" href="#">Si</a>
+                      <a class="dropdown-item" href="#">No</a>
+                    </div>
+                  </div>
+                  <div class="dropdown bt1">
+                      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Marca
+                      </button>
+                      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">modelo1</a>
+                        <a class="dropdown-item" href="#">modelo2</a>
+                        <a class="dropdown-item" href="#">modelo3</a>
+                        <a class="dropdown-item" href="#">modelo4</a>
+                        <a class="dropdown-item" href="#">modelo5</a>
+                        <a class="dropdown-item" href="#">modelo6</a>
+                      </div>
+                    </div>
+                    <div class="dropdown bt1">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Año
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                          <a class="dropdown-item" href="#">2018</a>
+                          <a class="dropdown-item" href="#">2017</a>
+                          <a class="dropdown-item" href="#">2016</a>
+                          <a class="dropdown-item" href="#">2015</a>
+                          <a class="dropdown-item" href="#">2014</a>
+                          <a class="dropdown-item" href="#">Anterior 2013</a>
+                        </div>
+                      </div>
+                      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Número de la matrícula">
+                    
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-info">ENVIAR</button>
+            </div>
+          </div>
+        </div>
+      </div>
 
     <section class="tarifas container-fluid row text-light pt-5 pb-5">
       <div class="text-tarifas row col-md-5 mx-auto">
