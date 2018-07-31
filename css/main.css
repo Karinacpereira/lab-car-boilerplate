@@ -25,6 +25,15 @@ header {
   color: #2B2B2B;
 }
 
+.modal-footer{
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-footer button{
+  margin-bottom: 3%;
+}
+
 .mobile{
   display: none;
 }
